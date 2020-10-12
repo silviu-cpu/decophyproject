@@ -18,7 +18,7 @@ function Navbar() {
             <nav className="navbar">
                <div className="navbar-container">
                     
-                    <div className="logo a-bounce"  onClick={closeMobileMenu,scrollingtop}>
+                    <div className="logo a-bounce"  onClick={scrollingtop}>
                 
                     </div>                    
 
@@ -27,7 +27,7 @@ function Navbar() {
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
-                            <Link to='/' className='nav-links'  onClick={closeMobileMenu,scrollingtop}>
+                            <Link to='/' className='nav-links'  onClick={scrollingtop}>
                                 Home
                             </Link>
                         </li>
