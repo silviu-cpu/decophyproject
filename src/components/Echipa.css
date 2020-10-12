@@ -1,0 +1,16 @@
+.echipa-container{
+    background-color: #4A3D42;
+    color: #fff;
+    padding: 4rem 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
+
+.echipa-text{
+    position: relative;
+    top: 0;
+}

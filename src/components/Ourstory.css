@@ -1,0 +1,52 @@
+.story-container{
+    background: URL('../images/story.jpeg') center center/cover no-repeat;
+    height: 100vh;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
+    object-fit: contain;
+    margin-top: -80px;
+    
+}
+
+.story-text{
+    position: relative;
+    top:170px;
+    margin-left: 50px;
+}
+
+.logo-container{
+    background: URL("../images/decophy2.png") no-repeat;
+    position: relative;
+    width: 224.42px;
+    height: 57px;
+    left: 1040px;
+    top: 557px;
+}
+
+@media screen and (max-width: 1024px){
+
+    .logo-container{
+
+        position: relative;
+        width: 224.42px;
+        height: 57px;
+        left: 570px;
+        top: 557px;
+
+    }
+}
+
+@media  (min-width: 481px) and (max-width: 767px){
+
+    .logo-container{
+
+        position: relative;
+        width: 224.42px;
+        height: 57px;
+        left: 270px;
+        top: 557px;
+
+    }
+}
