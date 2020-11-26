@@ -14,14 +14,18 @@
                <Button 
                className='btns' 
                buttonStyle='btn--primary' 
-               buttonSize='btn--large'>
+               buttonSize='btn--large'
+               onClick={() => window.open("https://m.me/decophy", "_blank")}
+               >
                    TALK WITH US <i class="fab fa-facebook-messenger " style={{fontSize: "24px"}}></i>
                 </Button>
 
                 <Button 
                className='btns' 
                buttonStyle='btn--primary' 
-               buttonSize='btn--large'>
+               buttonSize='btn--large'
+               onClick={() => window.open("http://pixelfy.me/5pS4vM", "_blank")}
+               >
                    BUY ON  <i class="fab fa-amazon" style={{fontSize: "24px"}}></i> <i class="fas fa-shopping-cart" style={{fontSize: "24px"}}></i>
                 </Button>
            </div> 

@@ -2,10 +2,12 @@ import React from 'react'
 import '../../App.css'
 import Contac from '../Contac'
 import HeroSection from '../HeroSection'
-import Ourproduct from '../Ourproduct'
 import Ourstory from '../Ourstory'
+//import Footer from '../Footer'
+import Cards from '../Cards'
+import Stats from '../stats'
 import Footer from '../Footer'
-import Echipa from '../Echipa'
+
 
 function Home() {
     return (
@@ -13,12 +15,11 @@ function Home() {
 
         
          <HeroSection />
-         <Echipa />
-         <Ourproduct />
-         <Echipa />
+         <Stats />
+         <Cards />
          <Ourstory />
          <Contac />
-         <Footer />
+         <Footer/>
          
          </>
 

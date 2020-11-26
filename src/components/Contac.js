@@ -19,7 +19,6 @@ function Contac() {
         <div className='contact-container' id='contact'>
             <div data-aos="fade-right" className='contact-text'>
                 <h1>Let's talk bussines</h1>
-                <hr className="lines"></hr>
             </div> 
             <div data-aos="fade-right" className="form">
                 <form onSubmit={{sendEmail}} className="form-container">

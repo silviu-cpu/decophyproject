@@ -1,7 +1,7 @@
 .hero-container{
     background: URL('../images/homepage.jpeg') center center/cover no-repeat;
     height: 100vh;
-    width:100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,6 +11,7 @@
     margin-top: -80px;
     
 }
+
 
 h1:hover {
     cursor: default;
@@ -40,20 +41,21 @@ p:hover {
     margin: 6px;
 }
 
-@media (min-width: 768px) and (max-width: 1024px){
+@media (min-width: 760px) and (max-width: 1024px){
 
     .hero-container > h1 {
         color: #ffffff;
-        font-size: 70px;
+        font-size: 20px;
         margin-top: -150px;
+        
     }
 }
 
-@media  (min-width: 481px) and (max-width: 767px){
+@media (min-width: 281px) and (max-width: 767px){
 
     .hero-container > h1 {
         color: #ffffff;
-        font-size: 50px;
+        font-size: 30px;
         margin-top: -100px;
     }
 

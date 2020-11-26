@@ -7,26 +7,28 @@
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
     object-fit: contain;
     margin-top: -80px;
+    justify-content: center;
+    align-items: center;
     
 }
 
 .contact-text{
-    position: relative;
-    top:370px;
-    left:820px;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
 .form{
-    position: relative;
-    width: 440px;
-    height: 469px;
-    left: 820px;
-    top: 410px;
-
+    display:flex;
+    align-items: center;
+    width: 700px;
+    margin-top: 40px;
 }
 
 .form-container{
     max-width: 700px;
+    display:block;
+    margin:0 auto;
 }
 
 .form-container label{
@@ -38,7 +40,7 @@
 
 .form-container input{
     display:block;
-    width:70%;
+    width:300px;
     height: 30px;
     border-radius: 10px;
     border: none;
@@ -48,7 +50,7 @@
 
 .form-container textarea{
     display:block;
-    width: 70%;
+    width: 100%;
     border-radius: 10px;
     background-color:  #4A3D42;
     color:#fff;
@@ -73,67 +75,36 @@ textarea:focus, input:focus{
     background-color: #D2A97D;
 }
 
-.lines{
-    position: relative;
-    width: 300px;
-    height: 0px;
-    top:20px;
-    left:0px;
 
-    mix-blend-mode: overlay;
-    border: 1px solid #000;
-    opacity: 0.1;
-    
-  }
 
   @media (min-width: 768px) and (max-width: 1024px){
 
     .form{
-        position: relative;
-        width: 440px;
-        height: 469px;
-        left: 420px;
-        top: 410px;
+       display:flex;
+       align-items: center;
     
     }
 
-    .lines{
-        position: relative;
-        width: 300px;
-        height: 0px;
-        top:20px;
-        left:0px;
-    
-        mix-blend-mode: overlay;
-        border: 1px solid #000;
-        opacity: 0.1;
-        
-      }
-
-      .contact-text{
-        position: relative;
-        top:370px;
-        left:420px;
+    .contact-text{
+        display: flex;
+        align-items: center;
+        text-align: center;
     }
+
   }
 
 
-  @media  (min-width: 481px) and (max-width: 767px){
+  @media  (min-width: 281px) and (max-width: 767px){
     .form{
-        position: relative;
-        width: 440px;
-        height: 469px;
-        left: 118px;
-        top: 410px;
+       display:flex;
+       align-items: center;
     
     }
 
-    
-
-      .contact-text{
-        position: relative;
-        top:370px;
-        left:118px;
+    .contact-text{
+        display: flex;
+        align-items: center;
+        text-align: center;
     }
 
   }
