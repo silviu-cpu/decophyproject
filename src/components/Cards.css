@@ -1,6 +1,6 @@
 .cards {
     padding: 4rem;
-    background:#FFF;
+    background:#BABABA;
     width: auto;
   }
   
@@ -37,7 +37,7 @@
   .cards__item__link {
     display: flex;
     flex-flow: column;
-    width: 40vh;
+    width: 50vh;
     justify-items: center;
     box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
     -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
