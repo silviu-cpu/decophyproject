@@ -53,7 +53,7 @@ export default Stats
 const StatsContainer=styled.div`
 width:100%;
 height:1200px;
-background:#BABABA;
+background:#E7E3E4;
 display:flex;
 flex-direction: column;
 justify-content: center;
