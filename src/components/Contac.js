@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import './Contac.css'
 import Aos from 'aos'
 import "aos/dist/aos.css";
+import emailjs from 'emailjs-com'
 
 function Contac() {
     useEffect(() => {
@@ -11,8 +12,19 @@ function Contac() {
         
     }, [])
     function sendEmail(e){
+        e.preventDefault();
 
-    }
+        emailjs.sendForm('gmail', 'template_ied0kgy', e.target, 'user_EelcXR1O2dtBCcKFTmS2V')
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+
+          e.target.reset()
+      }
+
+    
     /*adrianconstantin@decophy.com*/
     
     return (
@@ -21,7 +33,7 @@ function Contac() {
                 <h1>Let's talk bussines</h1>
             </div> 
             <div data-aos="fade-right" className="form">
-                <form onSubmit={{sendEmail}} className="form-container">
+                <form onSubmit={sendEmail} className="form-container">
                 
                     <label for="subject">Subject</label>
                     <input type="text" id="subject" className="form-control"  name="subject"/>
