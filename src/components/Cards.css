@@ -101,4 +101,8 @@
       grid-template-columns: 1fr;
       margin-left: 0;
     }
+
+    .cards__item__link{
+      width: 40vh;
+    }
   }
