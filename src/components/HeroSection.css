@@ -45,7 +45,7 @@ p:hover {
 
     .hero-container > h1 {
         color: #ffffff;
-        font-size: 20px;
+        font-size: 40px;
         margin-top: -150px;
         
     }
@@ -69,6 +69,6 @@ p:hover {
     }
 
     .btn {
-        width: 100%;
+        width: 95%;
     }
 }

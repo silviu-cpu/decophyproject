@@ -21,7 +21,7 @@ const StatsData = [
         desc2: "You don't have to worry about your doors being slammed anymore with the Half-Moon Door Stopper."
     },
     {
-        icon: (<RiWechatFill color='#fff' />),
+        icon: (<RiWechatFill color='#000' />),
         title: "Customer Service",
         desc: "It means the world to us to make sure that you get the best experience with our products." ,
         desc1:"If any problems occur, don't worry!",
@@ -53,7 +53,7 @@ export default Stats
 const StatsContainer=styled.div`
 width:100%;
 height:1200px;
-background:#BABABA;
+background:#FFF;
 display:flex;
 flex-direction: column;
 justify-content: center;

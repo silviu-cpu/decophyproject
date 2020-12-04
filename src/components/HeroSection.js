@@ -21,7 +21,7 @@
                 </Button>
 
                 <Button 
-               className='btns' 
+               className='btns btn-mobile' 
                buttonStyle='btn--primary' 
                buttonSize='btn--large'
                onClick={() => window.open("http://pixelfy.me/5pS4vM", "_blank")}
