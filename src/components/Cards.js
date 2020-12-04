@@ -33,7 +33,7 @@ function Cards() {
             </div>
             <div className="cards__container" id="jobs">
                 <div className="cards_wrapper">
-                    <ul className="cards__items" data-aos="fade-right">
+                    <ul className="cards__items">
                         <CardItem 
                         src= {poza1}
                         />
@@ -41,7 +41,7 @@ function Cards() {
                         src= {poza2}
                         />
                     </ul>
-                    <ul className="cards__items" data-aos="fade-left">
+                    <ul className="cards__items">
                         <CardItem 
                         src= {poza3}
                         />
@@ -49,7 +49,7 @@ function Cards() {
                         src= {poza4}
                         />
                     </ul>
-                    <ul className="cards__items" data-aos="fade-right">
+                    <ul className="cards__items">
                         <CardItem 
                         src= {poza5}
                         />
@@ -57,7 +57,7 @@ function Cards() {
                         src= {poza6}
                         />
                     </ul>
-                    <ul className="cards__items" data-aos="fade-left">
+                    <ul className="cards__items">
                         <CardItem 
                         src= {poza7}
                         />
@@ -65,7 +65,7 @@ function Cards() {
                         src= {poza8}
                         />
                     </ul>
-                    <ul className="cards__items" data-aos="fade-left">
+                    <ul className="cards__items">
                         <CardItem 
                         src= {poza9}
                         />
