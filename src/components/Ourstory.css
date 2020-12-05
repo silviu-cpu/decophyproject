@@ -27,7 +27,8 @@
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px){
     .story-container
     { height:1400px;
-      background-color: red !important;
+      background-image: none;
+      background: #a8a8a8;
     
     }
     .p-text{font-size:12px}

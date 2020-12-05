@@ -11,8 +11,30 @@
     margin-top: -80px;
     
 }
+.socialcontainer{
+    padding-top: 20px;
+}
 
+a.social{
+    margin:0 1.2rem;
+    
+}
 
+a.social:hover{
+    color: #fff;
+}
+
+a.facebook{
+    color: #4968ad;
+}
+
+a.insta{
+    color:black;
+}
+
+a.pinterest{
+    color: #bc0000;
+}
 h1:hover {
     cursor: default;
 }
